@@ -1,0 +1,33 @@
+{
+  "name": "clementine-server-mpris",
+  "version": "0.1.0",
+  "description": "A Clementine server controlling music players with MPRIS",
+  "main": "index.js",
+  "bin": "index.js",
+  "preferGlobal": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emersion/clementine-server-mpris.git"
+  },
+  "keywords": [
+    "mpris",
+    "clementine",
+    "server",
+    "music",
+    "player"
+  ],
+  "author": "emersion <contact@emersion.fr>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/emersion/clementine-server-mpris/issues"
+  },
+  "homepage": "https://github.com/emersion/clementine-server-mpris#readme",
+  "dependencies": {
+    "clementine-remote": "^0.6.0",
+    "mpris": "emersion/node-mpris"
+  }
+}
